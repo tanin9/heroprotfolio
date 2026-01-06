@@ -24,6 +24,17 @@
     cursor: pointer;
 }
 
+.btn-2 {
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .text-center {
     text-align: center;
 }
@@ -53,7 +64,8 @@
 
 header {
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 
     padding-top: 50px;
@@ -122,6 +134,7 @@ nav .menu a {
     max-width: 585px;
     vertical-align: middle;
 }
+
 
 
 /* About section */
